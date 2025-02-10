@@ -1,0 +1,11 @@
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Library.Canvas.deps.json
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Library.Canvas.dll
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Library.Canvas.pdb
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.AssemblyInfoInputs.cache
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.AssemblyInfo.cs
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.csproj.CoreCompileInputs.cache
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.dll
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\refint\Library.Canvas.dll
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Library.Canvas.pdb
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\ref\Library.Canvas.dll

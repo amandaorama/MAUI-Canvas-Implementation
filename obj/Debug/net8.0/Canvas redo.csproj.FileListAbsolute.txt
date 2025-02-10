@@ -1,0 +1,25 @@
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/bin/Debug/net8.0/Canvas redo
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/bin/Debug/net8.0/Canvas redo.deps.json
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/bin/Debug/net8.0/Canvas redo.runtimeconfig.json
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/bin/Debug/net8.0/Canvas redo.dll
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/bin/Debug/net8.0/Canvas redo.pdb
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.AssemblyInfoInputs.cache
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.AssemblyInfo.cs
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.csproj.CoreCompileInputs.cache
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.dll
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/refint/Canvas redo.dll
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.pdb
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/Canvas redo.genruntimeconfig.cache
+/Users/amandaorama/Desktop/Canvas redo/Canvas redo/obj/Debug/net8.0/ref/Canvas redo.dll
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Canvas redo.deps.json
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Canvas redo.dll
+C:\Users\alexr\Desktop\Canvas redo\bin\Debug\net8.0\Canvas redo.pdb
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.AssemblyInfoInputs.cache
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.AssemblyInfo.cs
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.csproj.CoreCompileInputs.cache
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.dll
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\refint\Canvas redo.dll
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\Canvas redo.pdb
+C:\Users\alexr\Desktop\Canvas redo\obj\Debug\net8.0\ref\Canvas redo.dll
