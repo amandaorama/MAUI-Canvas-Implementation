@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Canvas.views.AddStudentToCourseView"
+             Title="Add Students to Course">
+    <StackLayout>
+        <Label Text="{Binding SelectedCourse.Name, Mode=OneWay}" FontSize="20" Margin="0,20,0,10"/>
+        <Label Text="Student Roster" FontSize="20" Margin="0,20,0,10"/>
+
+        
+        <ListView x:Name="studentListView" ItemsSource="{Binding Students}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                   
+                    <TextCell Text="{Binding Name}" Detail="{Binding Id}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Entry x:Name="txtName" Placeholder="Name" />
+        <Entry x:Name="txtId" Placeholder="ID" />
+        <Entry x:Name="txtClassification" Placeholder="Classification" />
+
+        <Button Text="Add Student" Clicked="AddStudent_Clicked" />
+        <Button Text="Back" Clicked="BackClicked" />
+    </StackLayout>
+</ContentPage>

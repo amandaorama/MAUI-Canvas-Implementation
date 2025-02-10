@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Canvas.views.StudentInformationView"
+             Title="Student Information View"
+             NavigatedTo="ContentPage_NavigatedTo">
+
+
+    <VerticalStackLayout>
+        <ListView
+         ItemsSource="{Binding Students}"  SelectedItem="{Binding SelectedStudent}">
+        </ListView>
+        <Button Text="Add Student" Clicked="AddClicked"/>
+        <Button Text=" Remove Student" Clicked="RemoveClicked"/>
+        <Button Text="Update Student" Clicked="UpdateClicked"/>
+        <Button Text="Back" Clicked="BackClicked"/>
+
+        
+    </VerticalStackLayout>
+</ContentPage>

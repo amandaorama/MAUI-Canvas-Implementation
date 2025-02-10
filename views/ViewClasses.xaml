@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Canvas.views.ViewClasses"
+             Title="View Classes">
+    <VerticalStackLayout>
+        <Label Text="My Classes" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,10" />
+        <Label Text="Simply Click on a course to view the course information" HorizontalOptions="Center" Margin="0,0,0,20" />
+       
+        <ListView x:Name="coursesListView"
+                      ItemsSource="{Binding Courses}" ItemTapped="OnCourseTapped">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding CourseCode}" FontAttributes="Bold" />
+                            <Label Text="{Binding CourseName}" />
+                            <Label Text="{Binding CourseDescription}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="Back" Clicked="BackClicked"/>
+        
+    </VerticalStackLayout>
+</ContentPage>

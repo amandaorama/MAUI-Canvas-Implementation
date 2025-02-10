@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Canvas.views"
+             x:Class="Canvas.views.CourseView"
+             Title="Course View">
+
+    <StackLayout>
+        
+        <Label Text="Add Course" FontSize="20" Margin="0,20,0,10"/>
+       
+        <Label Text="Course Code:"/>
+        <Entry x:Name="txtCourseCode" Margin="0,0,0,10"/>
+      
+        <Label Text="Course Name:"/>
+        <Entry x:Name="txtCourseName" Margin="0,0,0,10"/>
+      
+        <Label Text="Course Description:"/>
+        <Entry x:Name="txtCourseDescription" Margin="0,0,0,10"/>
+        
+        <Button Text="Add Course" Clicked="AddCourse_Click"/>
+        <Button Text="Add/View Students to Course" Clicked="AddStudentsToCourse_Clicked" />
+        <Button Text="Add/View Assignment to Course" Clicked="AddAssignmentToCourse_Clicked" />
+        <Button Text="Add/View Module" Clicked="AddModule_Clicked" />
+        <Button Text="Back" Clicked="BackClicked"/>
+
+
+
+      
+        <ListView x:Name="courseListView"  ItemsSource="{Binding Courses}" SelectedItem="{Binding SelectedCourse}" Margin="0,20,0,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding CourseCode}" FontAttributes="Bold"/>
+                            <Label Text="{Binding CourseName}" />
+                            <Label Text="{Binding CourseDescription}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>
+
+
+
+
+
